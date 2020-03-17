@@ -1,11 +1,34 @@
 import React from "react";
 import {Table} from 'react-bootstrap';
+import EmployeeList from '../../employees.json';
 
 
 
 function EmployeeTable(props) { 
     console.log(props)  
-    //event handler for onclick  
+    const [employeeList, setEmployeeList]= useState([0])
+    const [sortDirection, setSortDirection]= useState(['asc'])
+    const handleChange = () => {
+        {sortDirection}
+        let nextSort;
+        if (sortDirection === 'down') nextSort = 'up';
+        else if (sortDirection === 'up') nextSort = 'default';
+        else if (sortDirection === 'default') nextSort = 'down';
+    }
+    
+    useEffect(() => {
+    const results = EmployeeList.sort(employee => {
+      console.log(employee)    
+      return JSON.stringify(employee).toLowerCase()
+      .includes(sortDirection)      
+    });  
+  
+    
+    setEmployeeList(results);
+  }, [sortDirection]);
+  console.log(employeeList)
+ 
+    
     // asd or dec (states)
     //depedning on the state run another function useState sort
     const tableBody =()=>{
@@ -27,7 +50,7 @@ function EmployeeTable(props) {
                     <th>#</th>
                     <th>
                         <button
-                        onClick={() => props.sortBy('name')}
+                        onClick={{handleChange}}
                         >
                         Name
                         </button>
