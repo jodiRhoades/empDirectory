@@ -1,0 +1,396 @@
+[
+    {
+      "gender": "female",
+      "name": {
+        "title": "Miss",
+        "first": "Arianna",
+        "last": "Hart"
+      },
+      "location": {
+        "street": {
+          "number": 1561,
+          "name": "Thornridge Cir"
+        },
+        "city": "Santa Clarita",
+        "state": "Washington",
+        "country": "United States",
+        "postcode": 38381,
+        "coordinates": {
+          "latitude": "23.9244",
+          "longitude": "18.8153"
+        },
+        "timezone": {
+          "offset": "-10:00",
+          "description": "Hawaii"
+        }
+      },
+      "email": "arianna.hart@example.com",
+      "login": {
+        "uuid": "15212dce-59b3-467c-8822-bbc586f2b286",
+        "username": "blackpanda770",
+        "password": "burton",
+        "salt": "MRnzDXFI",
+        "md5": "f69cec2997d64b2662df8b9bf3f0a86c",
+        "sha1": "f3ef749745c2a0e04cbeaed8ee4260120b8cd6b6",
+        "sha256": "b520f289f435fb9f4b5c425e7656eadc3f8af8b3194139ae178dd466cd485747"
+      },
+      "dob": {
+        "date": "1986-04-22T06:41:17.534Z",
+        "age": 34
+      },
+      "registered": {
+        "date": "2008-03-31T22:02:08.337Z",
+        "age": 12
+      },
+      "phone": "(391)-715-3649",
+      "cell": "(665)-133-7874",
+      "id": {
+        "name": "SSN",
+        "value": "469-12-5819"
+      },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/women/49.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/women/49.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/women/49.jpg"
+      },
+      "nat": "US"
+    },
+    {
+      "gender": "male",
+      "name": {
+        "title": "Mr",
+        "first": "Jordan",
+        "last": "Gibson"
+      },
+      "location": {
+        "street": {
+          "number": 7767,
+          "name": "Spring Hill Rd"
+        },
+        "city": "Surrey",
+        "state": "Arizona",
+        "country": "United States",
+        "postcode": 21187,
+        "coordinates": {
+          "latitude": "27.8564",
+          "longitude": "-35.4057"
+        },
+        "timezone": {
+          "offset": "+3:30",
+          "description": "Tehran"
+        }
+      },
+      "email": "jordan.gibson@example.com",
+      "login": {
+        "uuid": "eaa8255c-dc76-4bf2-b8d2-e76849cce019",
+        "username": "whiterabbit160",
+        "password": "case",
+        "salt": "L9ERpU0A",
+        "md5": "bd7c9534920d67c758f6e43926935977",
+        "sha1": "fa8cd23e3032e675c53989e86da0186cc8ed77fc",
+        "sha256": "31d870e371196c33ab0cca658a1f8b67675dea5dba42102cb476f28e6fd56fda"
+      },
+      "dob": {
+        "date": "1957-05-01T10:01:06.023Z",
+        "age": 63
+      },
+      "registered": {
+        "date": "2012-10-08T23:45:40.891Z",
+        "age": 8
+      },
+      "phone": "(157)-801-1175",
+      "cell": "(478)-185-6180",
+      "id": {
+        "name": "SSN",
+        "value": "572-72-0282"
+      },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/men/88.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/men/88.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/men/88.jpg"
+      },
+      "nat": "US"
+    },
+    {
+      "gender": "male",
+      "name": {
+        "title": "Mr",
+        "first": "Bryan",
+        "last": "Carpenter"
+      },
+      "location": {
+        "street": {
+          "number": 4448,
+          "name": "Robinson Rd"
+        },
+        "city": "Miami Gardens",
+        "state": "Hawaii",
+        "country": "United States",
+        "postcode": 46812,
+        "coordinates": {
+          "latitude": "86.4647",
+          "longitude": "-2.1159"
+        },
+        "timezone": {
+          "offset": "-3:30",
+          "description": "Newfoundland"
+        }
+      },
+      "email": "bryan.carpenter@example.com",
+      "login": {
+        "uuid": "b3bf63ec-139e-428c-9011-2c86cd1d8a1d",
+        "username": "blackbutterfly371",
+        "password": "sixsix",
+        "salt": "QE1M12vE",
+        "md5": "e0319bded9a7db50bf27f9e494f123fb",
+        "sha1": "a57e70d94c48d93e6402c9337c976c4bfd095018",
+        "sha256": "cdac1da3638eb8ac246d4bdc0e181dc309856efb0e92800adae3d5549d07aa44"
+      },
+      "dob": {
+        "date": "1967-12-19T15:51:32.448Z",
+        "age": 53
+      },
+      "registered": {
+        "date": "2009-01-17T01:31:13.018Z",
+        "age": 11
+      },
+      "phone": "(900)-292-9407",
+      "cell": "(448)-104-7788",
+      "id": {
+        "name": "SSN",
+        "value": "646-71-8630"
+      },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/men/18.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/men/18.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/men/18.jpg"
+      },
+      "nat": "US"
+    },
+    {
+      "gender": "male",
+      "name": {
+        "title": "Mr",
+        "first": "Liam",
+        "last": "Terry"
+      },
+      "location": {
+        "street": {
+          "number": 642,
+          "name": "Homestead Rd"
+        },
+        "city": "Elgin",
+        "state": "Maryland",
+        "country": "United States",
+        "postcode": 39437,
+        "coordinates": {
+          "latitude": "-73.7215",
+          "longitude": "18.1905"
+        },
+        "timezone": {
+          "offset": "+1:00",
+          "description": "Brussels, Copenhagen, Madrid, Paris"
+        }
+      },
+      "email": "liam.terry@example.com",
+      "login": {
+        "uuid": "c3c314e4-1621-457b-836a-7d9dd57d2146",
+        "username": "whitemeercat277",
+        "password": "bluemoon",
+        "salt": "cjBNaYua",
+        "md5": "6a1f2facca01003362db0d6bed4da74f",
+        "sha1": "b7d14ed02f9fd43610663cde17864efb0f667ae3",
+        "sha256": "4f2c472362813e16fc6babd78bd1d253ad8d34c60eaefdfab837e23a29d56bf3"
+      },
+      "dob": {
+        "date": "1995-04-11T04:32:30.592Z",
+        "age": 25
+      },
+      "registered": {
+        "date": "2007-02-25T15:14:39.261Z",
+        "age": 13
+      },
+      "phone": "(692)-746-3300",
+      "cell": "(664)-753-6587",
+      "id": {
+        "name": "SSN",
+        "value": "645-33-9327"
+      },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/men/37.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/men/37.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/men/37.jpg"
+      },
+      "nat": "US"
+    },
+    {
+      "gender": "male",
+      "name": {
+        "title": "Mr",
+        "first": "Jeff",
+        "last": "Silva"
+      },
+      "location": {
+        "street": {
+          "number": 5384,
+          "name": "Central St"
+        },
+        "city": "Shreveport",
+        "state": "Washington",
+        "country": "United States",
+        "postcode": 34957,
+        "coordinates": {
+          "latitude": "-19.8356",
+          "longitude": "-112.6804"
+        },
+        "timezone": {
+          "offset": "+11:00",
+          "description": "Magadan, Solomon Islands, New Caledonia"
+        }
+      },
+      "email": "jeff.silva@example.com",
+      "login": {
+        "uuid": "f014f4f7-1b66-4e21-acbc-ea69b2e950e5",
+        "username": "bigbear348",
+        "password": "doitnow",
+        "salt": "gQt1lHgk",
+        "md5": "0c46e441040c7b9bcd0ed186b7bc70ec",
+        "sha1": "32a51ee4156cc31103d654ee9efa641c8577704e",
+        "sha256": "6b30c0557349b16d4accae315b0317578001b346ff36d372147d0dbd982f031c"
+      },
+      "dob": {
+        "date": "1954-10-16T20:50:09.288Z",
+        "age": 66
+      },
+      "registered": {
+        "date": "2012-02-22T21:55:53.763Z",
+        "age": 8
+      },
+      "phone": "(299)-342-8871",
+      "cell": "(690)-922-1624",
+      "id": {
+        "name": "SSN",
+        "value": "405-16-4146"
+      },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/men/50.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/men/50.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/men/50.jpg"
+      },
+      "nat": "US"
+    },
+    {
+      "gender": "male",
+      "name": {
+        "title": "Mr",
+        "first": "Daniel",
+        "last": "Fuller"
+      },
+      "location": {
+        "street": {
+          "number": 505,
+          "name": "Saddle Dr"
+        },
+        "city": "Sioux Falls",
+        "state": "Maryland",
+        "country": "United States",
+        "postcode": 43251,
+        "coordinates": {
+          "latitude": "23.6195",
+          "longitude": "140.8499"
+        },
+        "timezone": {
+          "offset": "+5:30",
+          "description": "Bombay, Calcutta, Madras, New Delhi"
+        }
+      },
+      "email": "daniel.fuller@example.com",
+      "login": {
+        "uuid": "71646502-7a0d-4502-a93e-45af4b6b5501",
+        "username": "redgorilla235",
+        "password": "crusader",
+        "salt": "ceUqpV7d",
+        "md5": "8d8b8d6cdc195d193f1cb487bc8ba860",
+        "sha1": "6640278eb6b200965f2022d3a2d37016c921bd72",
+        "sha256": "5a975f4fe1bc0d151daf1127ee4612ef0c0ab819b1342c4d2634b0aa92ed5e64"
+      },
+      "dob": {
+        "date": "1958-01-03T13:59:12.568Z",
+        "age": 62
+      },
+      "registered": {
+        "date": "2016-03-16T04:27:01.560Z",
+        "age": 4
+      },
+      "phone": "(939)-327-3779",
+      "cell": "(776)-621-9546",
+      "id": {
+        "name": "SSN",
+        "value": "432-88-8679"
+      },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/men/11.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/men/11.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/men/11.jpg"
+      },
+      "nat": "US"
+    },
+    {
+      "gender": "female",
+      "name": {
+        "title": "Mrs",
+        "first": "Stacy",
+        "last": "Romero"
+      },
+      "location": {
+        "street": {
+          "number": 3266,
+          "name": "W Gray St"
+        },
+        "city": "Columbia",
+        "state": "North Dakota",
+        "country": "United States",
+        "postcode": 56694,
+        "coordinates": {
+          "latitude": "30.8010",
+          "longitude": "48.7770"
+        },
+        "timezone": {
+          "offset": "-3:30",
+          "description": "Newfoundland"
+        }
+      },
+      "email": "stacy.romero@example.com",
+      "login": {
+        "uuid": "6b95a9db-9685-44e5-8cb1-7df81de41a4d",
+        "username": "angryfish291",
+        "password": "1971",
+        "salt": "ynVdegRn",
+        "md5": "a1ed6162c545efa12f5e57a50fa33a8c",
+        "sha1": "43121cd466e7527c65691d5fdeae5e08b0cdb537",
+        "sha256": "f0629845be7d6ea52d84f3aa92f3d9eb5bd2043b76e8b1bf729173b95c0211ef"
+      },
+      "dob": {
+        "date": "1952-03-01T08:46:37.404Z",
+        "age": 68
+      },
+      "registered": {
+        "date": "2011-01-28T19:01:10.724Z",
+        "age": 9
+      },
+      "phone": "(376)-531-1173",
+      "cell": "(737)-912-4552",
+      "id": {
+        "name": "SSN",
+        "value": "420-43-3796"
+      },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/women/11.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/women/11.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/women/11.jpg"
+      },
+      "nat": "US"
+    }
+  ]
+
+  
