@@ -1,52 +1,23 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import { Table } from 'react-bootstrap';
-// import EmployeeList from '../../employees.json';
 
 function EmployeeTable(props) {
     console.log(props)
-    const [employeeList, setEmployeeList] = useState([])    
-    const [sortDirection, setSortDirection] = useState('asc')
-    const handleChange = e => {
-        setSortDirection(sortDirection === 'asc' ? 'dsc' : 'asc');
-    };
-    useEffect(() => {
-        console.log(employeeList)
-        const results = props.employees.sort((a, b) => {
+    // const [employeeList, setEmployeeList] = useState([])    
 
-            
-                var nameA = a.name.first.toUpperCase(); // ignore upper and lowercase
-                var nameB = b.name.first.toUpperCase(); // ignore upper and lowercase
-                console.log(nameA)
-                if (sortDirection === 'asc'){
-                if (nameA < nameB) {
-                    
-                  return -1;
-                }
-                if (nameA > nameB) {
-                  return 1;
-                }
-            } else {
-                if (nameA > nameB) {
-                    
-                    return -1;
-                  }
-                  if (nameA < nameB) {
-                    return 1;
-                  }
-            }              
-                // names must be equal
-                return 0;    
-        });
-        setEmployeeList(results);
-        console.log (results)
-    }, [setEmployeeList, employeeList, sortDirection]);
+    const handleChange = e => {
+        props.sort()
+    };
+    // useEffect(() => {
+    //     sortTheList()
+    // }, []);
 
     const tableBody = () => {
 
-        return employeeList.map((employee, i) => {
-            console.log(employee)
+        return props.employees.map((employee, i) => {
+            // console.log(employee)
             return(
-            <tr>
+            <tr key={employee.login.uuid}>
                 <td>{i + 1}</td>
                 <td>{employee.name.first}</td>
                 <td><img alt={employee.name} src={employee.picture.thumbnail} className="img-container" /></td>
