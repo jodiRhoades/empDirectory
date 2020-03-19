@@ -10,16 +10,14 @@ import EmployeeList from '../../employees.json';
       setSearchTerm(e.target.value);
     };
     useEffect(() => {
-    const results = EmployeeList.filter(employee => {
-      console.log(employee)
+    const results = EmployeeList.filter(employee => {     
       return JSON.stringify(employee).toLowerCase()
       .includes(searchTerm)
-    });
-    console.log(searchTerm)
-    console.log(results)
+    });    
     setEmployeeList(results);
+    console.log(employeeList)
   }, [searchTerm]);
-  console.log(employeeList)
+  
  
   return (
     <div>    
